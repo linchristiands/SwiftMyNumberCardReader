@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9C7EFC274E1BEF00782761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7EFB274E1BEF00782761 /* AppDelegate.swift */; };
+		AA9C7EFE274E1BEF00782761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7EFD274E1BEF00782761 /* SceneDelegate.swift */; };
+		AA9C7F00274E1BEF00782761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7EFF274E1BEF00782761 /* ViewController.swift */; };
+		AA9C7F03274E1BEF00782761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9C7F01274E1BEF00782761 /* Main.storyboard */; };
+		AA9C7F05274E1BF100782761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9C7F04274E1BF100782761 /* Assets.xcassets */; };
+		AA9C7F08274E1BF100782761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9C7F06274E1BF100782761 /* LaunchScreen.storyboard */; };
+		AA9C7F13274E1BF100782761 /* MyNumberReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7F12274E1BF100782761 /* MyNumberReaderTests.swift */; };
+		AA9C7F1D274E1BF100782761 /* MyNumberReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7F1C274E1BF100782761 /* MyNumberReaderUITests.swift */; };
+		AA9C7F1F274E1BF100782761 /* MyNumberReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C7F1E274E1BF100782761 /* MyNumberReaderUITestsLaunchTests.swift */; };
+		AA9C7F31274E1E6300782761 /* libjeid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9C7F30274E1E6300782761 /* libjeid.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9C7F0F274E1BF100782761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9C7EF0274E1BEF00782761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9C7EF7274E1BEF00782761;
+			remoteInfo = MyNumberReader;
+		};
+		AA9C7F19274E1BF100782761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9C7EF0274E1BEF00782761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9C7EF7274E1BEF00782761;
+			remoteInfo = MyNumberReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9C7EF8274E1BEF00782761 /* MyNumberReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNumberReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9C7EFB274E1BEF00782761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9C7EFD274E1BEF00782761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA9C7EFF274E1BEF00782761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9C7F02274E1BEF00782761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9C7F04274E1BF100782761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9C7F07274E1BF100782761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9C7F09274E1BF100782761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9C7F0E274E1BF100782761 /* MyNumberReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNumberReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9C7F12274E1BF100782761 /* MyNumberReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNumberReaderTests.swift; sourceTree = "<group>"; };
+		AA9C7F18274E1BF100782761 /* MyNumberReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNumberReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9C7F1C274E1BF100782761 /* MyNumberReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNumberReaderUITests.swift; sourceTree = "<group>"; };
+		AA9C7F1E274E1BF100782761 /* MyNumberReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNumberReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA9C7F2B274E1DA300782761 /* MyNumberReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNumberReader.entitlements; sourceTree = "<group>"; };
+		AA9C7F2C274E1DB400782761 /* MyNumberReaderRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNumberReaderRelease.entitlements; sourceTree = "<group>"; };
+		AA9C7F30274E1E6300782761 /* libjeid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libjeid.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9C7EF5274E1BEF00782761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C7F31274E1E6300782761 /* libjeid.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F0B274E1BF100782761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F15274E1BF100782761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9C7EEF274E1BEF00782761 = {
+			isa = PBXGroup;
+			children = (
+				AA9C7F2F274E1E5200782761 /* Frameworks */,
+				AA9C7EFA274E1BEF00782761 /* MyNumberReader */,
+				AA9C7F11274E1BF100782761 /* MyNumberReaderTests */,
+				AA9C7F1B274E1BF100782761 /* MyNumberReaderUITests */,
+				AA9C7EF9274E1BEF00782761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9C7EF9274E1BEF00782761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C7EF8274E1BEF00782761 /* MyNumberReader.app */,
+				AA9C7F0E274E1BF100782761 /* MyNumberReaderTests.xctest */,
+				AA9C7F18274E1BF100782761 /* MyNumberReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9C7EFA274E1BEF00782761 /* MyNumberReader */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C7F2C274E1DB400782761 /* MyNumberReaderRelease.entitlements */,
+				AA9C7F2B274E1DA300782761 /* MyNumberReader.entitlements */,
+				AA9C7EFB274E1BEF00782761 /* AppDelegate.swift */,
+				AA9C7EFD274E1BEF00782761 /* SceneDelegate.swift */,
+				AA9C7EFF274E1BEF00782761 /* ViewController.swift */,
+				AA9C7F01274E1BEF00782761 /* Main.storyboard */,
+				AA9C7F04274E1BF100782761 /* Assets.xcassets */,
+				AA9C7F06274E1BF100782761 /* LaunchScreen.storyboard */,
+				AA9C7F09274E1BF100782761 /* Info.plist */,
+			);
+			path = MyNumberReader;
+			sourceTree = "<group>";
+		};
+		AA9C7F11274E1BF100782761 /* MyNumberReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C7F12274E1BF100782761 /* MyNumberReaderTests.swift */,
+			);
+			path = MyNumberReaderTests;
+			sourceTree = "<group>";
+		};
+		AA9C7F1B274E1BF100782761 /* MyNumberReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C7F1C274E1BF100782761 /* MyNumberReaderUITests.swift */,
+				AA9C7F1E274E1BF100782761 /* MyNumberReaderUITestsLaunchTests.swift */,
+			);
+			path = MyNumberReaderUITests;
+			sourceTree = "<group>";
+		};
+		AA9C7F2F274E1E5200782761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9C7F30274E1E6300782761 /* libjeid.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9C7EF7274E1BEF00782761 /* MyNumberReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9C7F22274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReader" */;
+			buildPhases = (
+				AA9C7EF4274E1BEF00782761 /* Sources */,
+				AA9C7EF5274E1BEF00782761 /* Frameworks */,
+				AA9C7EF6274E1BEF00782761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNumberReader;
+			productName = MyNumberReader;
+			productReference = AA9C7EF8274E1BEF00782761 /* MyNumberReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9C7F0D274E1BF100782761 /* MyNumberReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9C7F25274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReaderTests" */;
+			buildPhases = (
+				AA9C7F0A274E1BF100782761 /* Sources */,
+				AA9C7F0B274E1BF100782761 /* Frameworks */,
+				AA9C7F0C274E1BF100782761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9C7F10274E1BF100782761 /* PBXTargetDependency */,
+			);
+			name = MyNumberReaderTests;
+			productName = MyNumberReaderTests;
+			productReference = AA9C7F0E274E1BF100782761 /* MyNumberReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9C7F17274E1BF100782761 /* MyNumberReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9C7F28274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReaderUITests" */;
+			buildPhases = (
+				AA9C7F14274E1BF100782761 /* Sources */,
+				AA9C7F15274E1BF100782761 /* Frameworks */,
+				AA9C7F16274E1BF100782761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9C7F1A274E1BF100782761 /* PBXTargetDependency */,
+			);
+			name = MyNumberReaderUITests;
+			productName = MyNumberReaderUITests;
+			productReference = AA9C7F18274E1BF100782761 /* MyNumberReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9C7EF0274E1BEF00782761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AA9C7EF7274E1BEF00782761 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AA9C7F0D274E1BF100782761 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AA9C7EF7274E1BEF00782761;
+					};
+					AA9C7F17274E1BF100782761 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AA9C7EF7274E1BEF00782761;
+					};
+				};
+			};
+			buildConfigurationList = AA9C7EF3274E1BEF00782761 /* Build configuration list for PBXProject "MyNumberReader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9C7EEF274E1BEF00782761;
+			productRefGroup = AA9C7EF9274E1BEF00782761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9C7EF7274E1BEF00782761 /* MyNumberReader */,
+				AA9C7F0D274E1BF100782761 /* MyNumberReaderTests */,
+				AA9C7F17274E1BF100782761 /* MyNumberReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9C7EF6274E1BEF00782761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C7F08274E1BF100782761 /* LaunchScreen.storyboard in Resources */,
+				AA9C7F05274E1BF100782761 /* Assets.xcassets in Resources */,
+				AA9C7F03274E1BEF00782761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F0C274E1BF100782761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F16274E1BF100782761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9C7EF4274E1BEF00782761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C7F00274E1BEF00782761 /* ViewController.swift in Sources */,
+				AA9C7EFC274E1BEF00782761 /* AppDelegate.swift in Sources */,
+				AA9C7EFE274E1BEF00782761 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F0A274E1BF100782761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C7F13274E1BF100782761 /* MyNumberReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9C7F14274E1BF100782761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C7F1F274E1BF100782761 /* MyNumberReaderUITestsLaunchTests.swift in Sources */,
+				AA9C7F1D274E1BF100782761 /* MyNumberReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9C7F10274E1BF100782761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9C7EF7274E1BEF00782761 /* MyNumberReader */;
+			targetProxy = AA9C7F0F274E1BF100782761 /* PBXContainerItemProxy */;
+		};
+		AA9C7F1A274E1BF100782761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9C7EF7274E1BEF00782761 /* MyNumberReader */;
+			targetProxy = AA9C7F19274E1BF100782761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9C7F01274E1BEF00782761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9C7F02274E1BEF00782761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9C7F06274E1BF100782761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9C7F07274E1BF100782761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9C7F20274E1BF100782761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA9C7F21274E1BF100782761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9C7F23274E1BF100782761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MyNumberReader/MyNumberReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNumberReader/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Read MyNumberCard";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9C7F24274E1BF100782761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MyNumberReader/MyNumberReaderRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNumberReader/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Read MyNumberCard";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA9C7F26274E1BF100782761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader.MyNumberReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNumberReader.app/MyNumberReader";
+			};
+			name = Debug;
+		};
+		AA9C7F27274E1BF100782761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader.MyNumberReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNumberReader.app/MyNumberReader";
+			};
+			name = Release;
+		};
+		AA9C7F29274E1BF100782761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader.MyNumberReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNumberReader;
+			};
+			name = Debug;
+		};
+		AA9C7F2A274E1BF100782761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8NCQ2966P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eizaburo.mynumber.reader.MyNumberReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNumberReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9C7EF3274E1BEF00782761 /* Build configuration list for PBXProject "MyNumberReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9C7F20274E1BF100782761 /* Debug */,
+				AA9C7F21274E1BF100782761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9C7F22274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9C7F23274E1BF100782761 /* Debug */,
+				AA9C7F24274E1BF100782761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9C7F25274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9C7F26274E1BF100782761 /* Debug */,
+				AA9C7F27274E1BF100782761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9C7F28274E1BF100782761 /* Build configuration list for PBXNativeTarget "MyNumberReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9C7F29274E1BF100782761 /* Debug */,
+				AA9C7F2A274E1BF100782761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9C7EF0274E1BEF00782761 /* Project object */;
+}
